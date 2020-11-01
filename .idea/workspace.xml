@@ -18,6 +18,25 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -29,32 +48,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="TestNG.GroupModificationTests">
-    <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.addressbook.tests.GroupCreationTests&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ContactModificationTests">
+    <configuration name="ContactCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
         <pattern>
@@ -63,7 +63,59 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactCreationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactCreationTests.testContactCreation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactCreationTests" />
+      <option name="METHOD_NAME" value="testContactCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactModificationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupDeletionTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -90,9 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactModificationTests" />
+        <item itemvalue="TestNG.ContactCreationTests" />
+        <item itemvalue="TestNG.ContactCreationTests.testContactCreation" />
         <item itemvalue="TestNG.GroupModificationTests" />
-        <item itemvalue="TestNG.GroupCreationTests" />
-        <item itemvalue="Gradle.GroupCreationTests" />
+        <item itemvalue="TestNG.GroupDeletionTests" />
       </list>
     </recent_temporary>
   </component>
@@ -108,41 +162,80 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1286" height="266" key="GridCell.Tab.0.bottom" timestamp="1603509477488">
+    <state x="0" y="353" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1604131766128">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603509477488" />
-    <state width="1286" height="266" key="GridCell.Tab.0.center" timestamp="1603509477488">
+    <state x="0" y="353" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1604131766128" />
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1604220750357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603509477488" />
-    <state width="1286" height="266" key="GridCell.Tab.0.left" timestamp="1603509477488">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604220750357" />
+    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1604220750356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603509477488" />
-    <state width="1286" height="266" key="GridCell.Tab.0.right" timestamp="1603509477488">
+    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604220750356" />
+    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1604220750356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603509477488" />
-    <state width="1286" height="266" key="GridCell.Tab.1.bottom" timestamp="1603509477488">
+    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604220750356" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1604220750356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603509477488" />
-    <state width="1286" height="266" key="GridCell.Tab.1.center" timestamp="1603509477488">
+    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604220750356" />
+    <state width="1323" height="334" key="GridCell.Tab.1.bottom" timestamp="1604212067432">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603509477488" />
-    <state width="1286" height="266" key="GridCell.Tab.1.left" timestamp="1603509477488">
+    <state width="1323" height="334" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604212067432" />
+    <state width="1323" height="334" key="GridCell.Tab.1.center" timestamp="1604212067432">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603509477488" />
-    <state width="1286" height="266" key="GridCell.Tab.1.right" timestamp="1603509477488">
+    <state width="1323" height="334" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604212067432" />
+    <state width="1323" height="334" key="GridCell.Tab.1.left" timestamp="1604212067432">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603509477488" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1603090411407">
+    <state width="1323" height="334" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604212067432" />
+    <state width="1323" height="334" key="GridCell.Tab.1.right" timestamp="1604212067432">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603090411407" />
+    <state width="1323" height="334" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604212067432" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1604133684951">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604133684951" />
+    <state x="137" y="112" key="caller.chooser.dialog" timestamp="1604214667533">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="112" key="caller.chooser.dialog/0.0.1366.728@0.0.1366.728" timestamp="1604214667533" />
+    <state x="228" y="99" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604135476139">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="228" y="99" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1604135476139" />
+    <state x="781" y="0" width="585" height="728" key="find.popup" timestamp="1604135599926">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="781" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1604135599926" />
+    <state x="478" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1604216410981">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="478" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1604216410981" />
+    <state x="345" y="317" key="run.anything.popup" timestamp="1604127866519">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="345" y="317" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1604127866519" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="invokedMethod.m_testResult" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
