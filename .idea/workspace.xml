@@ -53,7 +53,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="TestNG.ContactModificationTests">
+  <component name="RunManager" selected="TestNG.ContactCreationTests">
     <configuration name="ContactCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -142,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactModificationTests" />
         <item itemvalue="TestNG.ContactCreationTests" />
+        <item itemvalue="TestNG.ContactModificationTests" />
         <item itemvalue="TestNG.ContactCreationTests.testContactCreation" />
         <item itemvalue="TestNG.GroupModificationTests" />
         <item itemvalue="TestNG.GroupDeletionTests" />
@@ -166,22 +166,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="353" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1604131766128" />
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1604220750357">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1604224882429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604220750357" />
-    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1604220750356">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604224882429" />
+    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1604224882429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604220750356" />
-    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1604220750356">
+    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604224882429" />
+    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1604224882429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604220750356" />
-    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1604220750356">
+    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604224882429" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1604224882429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604220750356" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604224882429" />
     <state width="1323" height="334" key="GridCell.Tab.1.bottom" timestamp="1604212067432">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
